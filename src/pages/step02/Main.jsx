@@ -2,6 +2,8 @@ import List01 from "../step03/List01";
 import List02 from "../step03/List02";
 import Profile from "../step03/Profile";
 import CommentList from "../step04/CommentList";
+import TextList1 from "../step07/TextList1";
+import TextList2 from "../step07/TextList2";
 import Counter from "./Counter";
 
 function Main(props){
@@ -14,6 +16,8 @@ function Main(props){
             <List02 />
             <Profile />
             <CommentList />
+            <TextList1 />
+            <TextList2 />
         </main>
     );
 };
