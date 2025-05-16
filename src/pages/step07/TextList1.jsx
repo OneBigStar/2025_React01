@@ -13,7 +13,7 @@ export default function TextList1() {
     })
     return (
         <ul>
-            result
+            {result}
         </ul>
     )
 }

@@ -4,6 +4,10 @@ import Profile from "../step03/Profile";
 import CommentList from "../step04/CommentList";
 import TextList1 from "../step07/TextList1";
 import TextList2 from "../step07/TextList2";
+import Event01 from "../step08/Event01";
+import Event02 from "../step08/Event02";
+import Event03 from "../step08/Event03";
+import Event04 from "../step08/Event04";
 import Counter from "./Counter";
 
 function Main(props){
@@ -18,6 +22,10 @@ function Main(props){
             <CommentList />
             <TextList1 />
             <TextList2 />
+            <Event01 /> 
+            <Event02 /> 
+            <Event03 /> 
+            <Event04 /> 
         </main>
     );
 };
