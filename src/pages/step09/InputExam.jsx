@@ -7,7 +7,5 @@ export default function InputExam(){
                    onBlur={()=>console.log("onBlur")}
             /><br />
         </div>
-
-
     );
-}
+} 
