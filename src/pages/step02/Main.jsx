@@ -20,6 +20,8 @@ import EffectTest01 from "../step14/EffectTest01";
 import EffectTest02 from "../step14/EffectTest02";
 import EffectTest03 from "../step14/EffectTest03";
 import EffectTest04 from "../step14/EffectTest04";
+import MemoTest01 from "../step15/MemoTest01";
+import MemoTest02 from "../step15/MemoTest02";
 import Counter from "./Counter";
 
 function Main(props){
@@ -50,6 +52,8 @@ function Main(props){
             <EffectTest02 />
             <EffectTest03 />
             <EffectTest04 />
+            <MemoTest01 />
+            <MemoTest02 />
         </main>
     );
 };
