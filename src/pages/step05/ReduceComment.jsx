@@ -10,7 +10,7 @@ export default function ReduceComment() {
    // 1회차 : k = {..., isAdmin:true},  / acc.total = 0 + 1 / adminCount = 0 + 1
    // 2회차 : k = {..., isAdmin:false}, / acc.total = 1 + 1 / isAdmin이 false이므로 변화 없음
    // 3회차 : k = {..., isAdmin:true},  / acc.total = 2 + 1 / adminCount = 1 + 1
-   // 2회차 : k = {..., isAdmin:true},  / acc.total = 3 + 1 / adminCount = 2 + 1
+   // 4회차 : k = {..., isAdmin:true},  / acc.total = 3 + 1 / adminCount = 2 + 1
    const admin = comments.reduce((acc, k)=>{
         // acc.total = acc.total + 1; 
         acc.total += 1 ; // 순회 횟수 누적

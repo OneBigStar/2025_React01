@@ -9,6 +9,9 @@ import Event02 from "../step08/Event02";
 import Event03 from "../step08/Event03";
 import Event04 from "../step08/Event04";
 import InputExam from "../step09/InputExam";
+import CountEx2 from "../step10/CountEx2";
+import CountEx3 from "../step10/CountEx3";
+import CountEx4 from "../step10/CountEx4";
 import Counter from "./Counter";
 
 function Main(props){
@@ -28,6 +31,9 @@ function Main(props){
             <Event03 /> 
             <Event04 /> 
             <InputExam />
+            <CountEx2 />
+            <CountEx3 />
+            <CountEx4 />
         </main>
     );
 };
