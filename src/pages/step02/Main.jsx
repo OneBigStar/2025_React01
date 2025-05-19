@@ -15,6 +15,11 @@ import CountEx4 from "../step10/CountEx4";
 import CountEx5 from "../step10/CountEx5";
 import ProfileEx from "../step11/ProfileEx";
 import TempEx from "../step12/TempEx";
+import FormEx from "../step13/FormEx";
+import EffectTest01 from "../step14/EffectTest01";
+import EffectTest02 from "../step14/EffectTest02";
+import EffectTest03 from "../step14/EffectTest03";
+import EffectTest04 from "../step14/EffectTest04";
 import Counter from "./Counter";
 
 function Main(props){
@@ -40,6 +45,11 @@ function Main(props){
             <CountEx5 />
             <ProfileEx />
             <TempEx />
+            <FormEx />
+            <EffectTest01 />
+            <EffectTest02 />
+            <EffectTest03 />
+            <EffectTest04 />
         </main>
     );
 };

@@ -14,7 +14,7 @@ export default function ProfileEx(){
                 users[(users.indexOf(user)+1) % users.length]
             )}>Switch User</button>
 
-            <p>상태 : {isStatus ? 'Active' : 'DeActive'}</p>
+            <p>상태 : {isStatus ? 'Active' : 'eActive'}</p>
             <Profile name={user} />
         </div>
     );
