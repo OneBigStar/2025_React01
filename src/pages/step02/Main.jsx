@@ -24,8 +24,12 @@
 // import MemoTest02 from "../step15/MemoTest02";
 // import Counter from "./Counter";
 
-import NonUseCallBackEx from "../step16/NonUseCallBackEx";
-import UseCallBackEx from "../step16/UseCallBackEx";
+// import NonUseCallBackEx from "../step16/NonUseCallBackEx";
+// import UseCallBackEx from "../step16/UseCallBackEx";
+// import RefEx01 from "../step17/RefEx01";
+// import RefEx02 from "../step17/RefEx02";
+// import RefEx03 from "../step17/RefEx03";
+import RefEx04 from "../step17/RefEx04";
 
 function Main(props){
     return (
@@ -57,9 +61,14 @@ function Main(props){
             <EffectTest04 />
             <MemoTest01 />
             <MemoTest02 /> 
-            */}
             <NonUseCallBackEx />
             <UseCallBackEx />
+            <RefEx01 />
+            <RefEx02 />
+            <RefEx03 />
+            */}
+            <RefEx04 />
+
 
 
         </main>
