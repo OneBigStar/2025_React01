@@ -24,13 +24,17 @@
 // import MemoTest02 from "../step15/MemoTest02";
 // import Counter from "./Counter";
 
+// import UseIdEx01 from "../step18/UseIdEx01";
+import UseIdEx02 from "../step18/UseIdEx02";
+
+
 // import NonUseCallBackEx from "../step16/NonUseCallBackEx";
 // import UseCallBackEx from "../step16/UseCallBackEx";
 // import RefEx01 from "../step17/RefEx01";
 // import RefEx02 from "../step17/RefEx02";
 // import RefEx03 from "../step17/RefEx03";
-import RefEx04 from "../step17/RefEx04";
-import RefEx05 from "../step17/RefEx05";
+// import RefEx04 from "../step17/RefEx04";
+// import RefEx05 from "../step17/RefEx05";
 
 function Main(props){
     return (
@@ -68,9 +72,10 @@ function Main(props){
             <RefEx02 />
             <RefEx03 />
             <RefEx04 />
-            */}
             <RefEx05 />
-
+            <UseIdEx01/>
+            */}
+            <UseIdEx02/>
 
 
         </main>
